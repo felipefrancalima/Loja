@@ -7,7 +7,7 @@
     --cor-primaria: #f8f9fa;
     --cor-secundaria: #ffffff;
     --cor-terciaria: #727272;
-    --cor-quartenaria: #71ae3f;
+    --cor-quartenaria: #C9A227;
     --cor-borda: #d2d2d2;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -53,7 +53,7 @@ header img {
 }
 
 header h3 {
-    color: #71AE3F;
+    color: var(--cor-quartenaria);
     font-size: 1.35rem;
 }
 
@@ -70,7 +70,7 @@ main {
 }
 
 main a {
-    background: #71AE3F;
+    background-color: var(--cor-quartenaria);
     padding: 15px 0;
     text-decoration: none;
     color: var(--cor-terciaria);
