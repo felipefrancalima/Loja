@@ -31,9 +31,9 @@ body {
 }
 
 section {
-    padding: 45px;
+    padding: 49px;
     background-color: var(--cor-secundaria);
-    width: 500px;
+    width: 450px;
     border: 1px solid var(--cor-borda);
     border-radius: 15px;
     display: flex;
@@ -46,11 +46,16 @@ section {
 
 
 header img {
-    width: 140px;
-    border: 1px solid var(--cor-borda);
-    border-radius: 50%;
+    width: 140px; /* Aumenta o tamanho */
+    height: 140px; /* Garante que a altura e largura sejam iguais */
+    
+    border: 2px solid var(--cor-borda); /* Deixa a borda mais visível */
+    border-radius: 50%; /* Mantém a forma redonda */
+    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
+    
     margin-bottom: 10px;
 }
+
 
 header h3 {
     color: var(--cor-quartenaria);
