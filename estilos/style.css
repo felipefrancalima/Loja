@@ -46,8 +46,8 @@ section {
 
 
 header img {
-    width: 140px; /* Aumenta o tamanho */
-    height: 140px; /* Garante que a altura e largura sejam iguais */
+    width: 160px; /* Aumenta o tamanho */
+    height: 160px; /* Garante que a altura e largura sejam iguais */
     
     border: 2px solid var(--cor-borda); /* Deixa a borda mais visível */
     border-radius: 50%; /* Mantém a forma redonda */
